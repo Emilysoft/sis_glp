@@ -26,7 +26,8 @@
                 </tr>
                 </thead>
                 <tbody>
-                <?php foreach ($resultado as $row)  {   ?>
+                <?php
+                foreach ($resultado as $row)  {   ?>
                     <tr>
                     <td><?php echo $row['ID_CILINDRO']  ?></td>
                     <td><?php echo $row['FORMATO']?></td>
@@ -37,24 +38,7 @@
             <a href="../init.php" class="btn btn-success">Volver</a>
         </div>
 
-
-
-
-
-
-
-
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
