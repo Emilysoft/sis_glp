@@ -1,5 +1,5 @@
 <?php
-require_once('../../db/conect.php');
+require_once('db/conect.php');
 class model_cilindros {
 private $db;
 private $cilindros;
